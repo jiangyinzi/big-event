@@ -1,0 +1,57 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/login_bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+/* 登录注册的表格部分 */
+.form {
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* 标题部分 */
+.form .title {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+/* 隐藏去注册的页面 */
+.form .res {
+    display: none;
+}
+
+/* 去登录页面的样式 */
+.form .layui-form-item {
+    position: relative;
+    padding: 0 30px;
+}
+
+.form .layui-icon {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+.form .layui-input {
+    padding-left: 30px;
+}
+
+.form .layui-btn-fluid {
+    background-color: #1E9FFF;
+}
+
+.form .links {
+    display: flex;
+    justify-content: flex-end;
+}
